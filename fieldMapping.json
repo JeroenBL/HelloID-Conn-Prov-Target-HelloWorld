@@ -1,0 +1,40 @@
+{
+    "Version": "v1",
+    "MappingFields": [
+      {
+        "Name": "DisplayName",
+        "Description": "",
+        "Type": "Text",
+        "MappingActions": [
+          {
+            "MapForActions": [
+              "Create",
+              "Update"
+            ],
+            "MappingMode": "Field",
+            "Value": "\"Person.DisplayName\"",
+            "UsedInNotifications": false,
+            "StoreInAccountData": false
+          }
+        ]
+      },
+      {
+        "Name": "ExternalId",
+        "Description": "",
+        "Type": "Text",
+        "MappingActions": [
+          {
+            "MapForActions": [
+              "Create",
+              "Update"
+            ],
+            "MappingMode": "Field",
+            "Value": "\"Person.ExternalId\"",
+            "UsedInNotifications": false,
+            "StoreInAccountData": false
+          }
+        ]
+      }
+    ],
+    "UniqueFieldNames": []
+  }
